@@ -7,8 +7,6 @@ pkg/
 tags
 .bundle/
 .rspec
-Gemfile
-Gemfile.lock
 quickstart/ruote_work
 
 examples/barley/.sass-cache
