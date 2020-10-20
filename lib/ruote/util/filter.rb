@@ -127,7 +127,7 @@ module Ruote
 
     SKIP = %w[ and or fields field f ]
     BOOLEANS = %w[ and or ]
-    NUMBER_CLASSES = [ Fixnum, Float ]
+    NUMBER_CLASSES = [ Integer, Float ]
     BOOLEAN_CLASSES = [ TrueClass, FalseClass ]
     TILDE = /^~/
     RTILDE = /^\^~/

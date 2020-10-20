@@ -113,7 +113,7 @@ module Ruote
   #
   def self.narrow_to_number(o)
 
-    return o if [ Fixnum, Bignum, Float ].include?(o.class)
+    return o if [ Integer, Float ].include?(o.class)
 
     s = o.to_s
 
