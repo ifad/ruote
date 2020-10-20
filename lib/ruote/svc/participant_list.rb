@@ -113,7 +113,7 @@ module Ruote
       case position
         when 'last' then list['list'] << entry
         when 'first' then list['list'].unshift(entry)
-        when Fixnum then list['list'].insert(position, entry)
+        when Integer then list['list'].insert(position, entry)
         else raise "cannot insert participant at position '#{position}'"
       end
 

@@ -142,7 +142,7 @@ module Ruote
 
     value = (collection[key] rescue nil)
 
-    if value == nil and key.is_a?(Fixnum)
+    if value == nil and key.is_a?(Integer)
       (collection[key.to_s] rescue nil)
     else
       value

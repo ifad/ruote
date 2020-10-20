@@ -69,7 +69,7 @@ module Ruote
     def self.count
 
       uninteresting = [
-        Array, String, Hash, Set, Module, Range, Float, Bignum
+        Array, String, Hash, Set, Module, Range, Float, Integer
       ]
 
       h = {}

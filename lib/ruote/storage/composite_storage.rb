@@ -64,7 +64,7 @@ module Ruote
         define_method(method_name) do |*args|
           storage_for(args.first['type']).send(method_name, *args)
         end
-      elsif type.is_a?(Fixnum)
+      elsif type.is_a?(Integer)
         define_method(method_name) do |*args|
           storage_for(args[type]).send(method_name, *args)
         end
